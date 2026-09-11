@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Be Vietnam Pro", "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  --color-bamboo-green: #4A7C59;
+  --color-warm-cream: #F5EFE0;
+  --color-earth-brown: #3D2F1F;
+  --color-terracotta: #C97B63;
+  --color-sage-mist: #B8C5B0;
+  --color-deep-forest: #2C4A3A;
+  --color-golden-sand: #D4A574;
+  --color-stone-gray: #8B8478;
+}
+
+html {
+  font-family: "Be Vietnam Pro", "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F5EFE0;
+}
+::-webkit-scrollbar-thumb {
+  background: #B8C5B0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4A7C59;
+}
